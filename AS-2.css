@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.bgi{
+height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(https://ristotaxi.it/wp-content/uploads/2020/06/13.-American-King-Burger-1.png);
+background-position: center;
+background-size: cover;
+overflow-x:hidden;
+position: relative;
+}
+.top{
+    padding: 40px 120px;
+    display: flex;
+}
+.logo img{
+ width: 120px;
+ cursor: pointer;
+}
+.link{
+    flex: 1;
+}
+.link ul{
+    margin-left:60px ;
+    display: inline;
+}
+.link ul li{
+    display: inline-block;
+    padding: 8px 25px;
+    list-style: none;
+}
+.link ul a li{
+    text-decoration: none;
+    color:#fff;
+    font-size: 13px;
+}
+
+.link ul a li::after{
+    content: '';
+    width: '100px';
+    height: '2px';
+    background: yellow;
+    display: block;
+    margin: auto;
+    transition: .10s;
+}
+.link ul a li:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.but{
+    padding: 10px 20px;
+    border: '0';
+    background: yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
+.link .but{
+    float: right;
+}
+.title{
+    margin: 80px 130px;
+    color: white;
+}
+.title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.side{
+    height: 100%;
+    background: black;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.search{
+    width: 80px;
+    height: 60%;
+}
+.search .fa{
+    margin: 45px 23px;
+    display: block;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.icon{
+    height: 35%;
+    width: 80px;
+    background: yellow;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+.icon .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
